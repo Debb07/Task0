@@ -11,7 +11,7 @@ app.get('/info', (req, res) => {
     const sentInfo = {
         email: 'latonadeborah@gmail.com',
         currentDatetime: new Date().toISOString(),
-        githubUrl: 'https://github.com/Debb07/Assignment1'
+        githubUrl: 'https://github.com/Debb07/Task0'
     };
     res.status(200).json(sentInfo);
 });
