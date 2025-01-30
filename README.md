@@ -31,16 +31,16 @@ node server.js
 
 ## Base URL
 http://localhost:3000
-Note: Replace localhost:3000 with deployed URL on Vercel (https://task0-steel.vercel.app/info) when accessing the live API.
+### Note: Replace localhost:3000 with deployed URL on Vercel (https://task0-steel.vercel.app/info) when accessing the live API.
 
 ## Endpoints
 1. Get User Info
-Endpoint URL: /info
-Method: GET
-Request Format: No parameters required.
-Response Format:
-  Status Code: 200 OK
-  Response Body:
+### Endpoint URL: /info
+### Method: GET
+### Request Format: No parameters required.
+### Response Format:
+  #### Status Code: 200 OK
+  #### Response Body:
    {
       "email": "latonadeborah@gmail.com",
       "currentDatetime": "2023-01-30T22:28:00.000Z",
@@ -48,10 +48,10 @@ Response Format:
    }
 
 ## Example Usage
-Fetching User Info
+# Fetching User Info
 You can use an API client like Postman or curl to make a request to the /info endpoint.
 
-### Fetching User Info with Postman
+## Fetching User Info with Postman
 1. Open Postman.
 2. Set the request type to GET.
 3. Enter the URL: http://localhost:3000/info.
