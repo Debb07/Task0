@@ -31,7 +31,7 @@ node server.js
 
 ## Base URL
 http://localhost:3000
-### Note: Replace localhost:3000 with deployed URL on Vercel (https://task0-steel.vercel.app/info) when accessing the live API.
+### Note: Replace localhost:3000 with deployed URL on Vercel (https://task0-steel.vercel.app/) when accessing the live API.
 
 ## Endpoints
 1. Get User Info
