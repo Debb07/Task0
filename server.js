@@ -7,15 +7,12 @@ const port = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
-app.get('/', (req, res) => {
-    res.send('Welcome to my Task0 API');
-});
 
-app.get('/info', (req, res) => {
+app.get('/', (req, res) => {
     const sentInfo = {
         email: 'latonadeborah@gmail.com',
-        currentDatetime: new Date().toISOString(),
-        githubUrl: 'https://github.com/Debb07/Task0'
+        current_datetime: new Date().toISOString(),
+        github_url: 'https://github.com/Debb07/Task0'
     };
     res.status(200).json(sentInfo);
 });
